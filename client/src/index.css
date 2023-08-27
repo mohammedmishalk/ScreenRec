@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Tailwind CSS classes */
+.container {
+    min-height: 100vh;
+  }
+  
+  .content {
+    width: 395px;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  /* Mobile-specific styles using Tailwind CSS breakpoints */
+  @media (min-width: 640px) {
+    .content {
+      width: 100%;
+      max-width: 1440px;
+      padding: 1rem; /* You can adjust the padding as needed */
+      min-height: auto;
+      height: auto;
+    }
+  }
+  
